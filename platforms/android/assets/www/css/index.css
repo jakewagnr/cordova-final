@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+
+h1 {
+    padding: 1% 2%;
+    font-size: 8vh;
+    text-align: right;
+    width: 100%;
+    height: 10%;
+    color: #000;
+    background-color: #D3D3D3;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+table {
+    border: 3px solid #000;
+    width: 90%;
+    margin: 5% auto;
+    height: 70%;
+    color: #000;
+    font-size: .75rem;
+}
+
+#games #svgss{
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+}
+
+td {
+    border: 1px solid #000;
+    text-align: center;
+}
+
+th {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.5rem;
+}
+
+p {
+    display: inline-block;
+}
+
+.svgs svg {
+    width: 30px;
+    height: auto;
+}
+
+.svgs #West_Ham_United_FC,
+#West_Bromwich_Albion_FC,
+#Watford_FC,
+#Tottenham_Hotspur_FC,
+#Swansea_City_FC,
+#Sunderland_AFC,
+#Stoke_City_FC,
+#Southampton_FC,
+#Middlesbrough_FC,
+#Manchester_United_FC,
+#Manchester_City_FC,
+#Liverpool_FC,
+#Leicester_City_FC,
+#Hull_City_AFC,
+#Everton_FC,
+#Crystal_Palace_FC,
+#Chelsea_FC,
+#Burnley_FC,
+#AFC_Bournemouth,
+#Arsenal_FC {
+    width: 15px;
+    height: auto;
+    display: none;
+}
+
+.West_Ham_United_FC g#West_Ham_United_FC,
+.West_Bromwich_Albion_FC g#West_Bromwich_Albion_FC,
+.Watford_FC g#Watford_FC,
+.Tottenham_Hotspur_FC g#Tottenham_Hotspur_FC,
+.Swansea_City_FC g#Swansea_City_FC,
+.Sunderland_AFC g#Sunderland_AFC,
+.Stoke_City_FC g#Stoke_City_FC,
+.Southampton_FC g#Southampton_FC,
+.Middlesbrough_FC g#Middlesbrough_FC,
+.Manchester_United_FC g#Manchester_United_FC,
+.Manchester_City_FC g#Manchester_City_FC,
+.Liverpool_FC g#Liverpool_FC,
+.Leicester_City_FC g#Leicester_City_FC,
+.Hull_City_AFC g#Hull_City_AFC,
+.Everton_FC g#Everton_FC,
+.Crystal_Palace_FC g#Crystal_Palace_FC,
+.Chelsea_FC g#Chelsea_FC,
+.Burnley_FC g#Burnley_FC,
+.AFC_Bournemouth g#AFC_Bournemouth,
+.Arsenal_FC g#Arsenal_FC {
+    display: block;
+    width: 15px;
+    height: auto;
+}
+
+#refresh {
+    margin: 4% 3%;
+    z-index: 999;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 10%;
+    height: auto;
+}
+
+nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    z-index: 30;
+    
+}
+
+nav a {
+    font-size: 2rem;
+    padding-top: 1rem;
+    color: #000;
+    display: block;
+    float: left;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    background-color: #D3D3D3;
+    text-decoration: none;
+    font-family: 'Titillium Web', sans-serif;
+    
+    
+}
+
+
+[data-role="page"] {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: none;
+}
+
+[data-role="page"].active {
+    display: block;
+    z-index: 20;
+    background-color: #32CD32;
+    color: #000;
+}
+
+#iconss:last {
+    display: none;
+}
+
+img {
+    width: 5vh;
+    height: auto;
+}
